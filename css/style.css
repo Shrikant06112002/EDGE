@@ -694,6 +694,7 @@ nav-link.active {
 
 .main-nav .ticket {
   background: #ff6600;
+  text-align: center;
   display: block;
   padding: 34px 32px;
 }
