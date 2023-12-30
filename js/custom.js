@@ -82,6 +82,97 @@
 })(jQuery);
 
 
+// Animations using gsap by Soham
+gsap.from(".about",{
+    
+    y:50,
+    opacity:0,
+    duration:0.1,
+
+    scale:0.9,
+    
+    scrollTrigger:{
+        trigger:".about",
+        scroller:"body",
+        start:"top 70%",
+        end:"top 55%",
+        scrub:1
+       
+    }
+});
+
+gsap.from(".container",{
+    
+    y:50,
+    opacity:0,
+    duration:0.1,
+
+    scale:0.9,
+    
+    scrollTrigger:{
+        trigger:".container",
+        scroller:"body",
+        start:"top 70%",
+        end:"top 55%",
+        scrub:1
+       
+    }
+});
+
+
+gsap.from(".single_speaker , .speakers_area",{
+    
+    y:50,
+    opacity:0,
+    duration:0.1,
+
+    scale:0.9,
+    
+    scrollTrigger:{
+        trigger:".speakers_area",
+        scroller:"body",
+        start:"top 70%",
+        end:"top 55%",
+        scrub:1
+       
+    }
+});
+
+gsap.from(".cta-ticket .image-block",{
+    
+    y:50,
+    opacity:0,
+    duration:0.2,
+    scale:0.8,
+    
+    scrollTrigger:{
+        trigger:".cta-ticket",
+        scroller:"body",
+        start:"top 70%",
+        end:"top 55%",
+        scrub:1
+       
+    }
+});
+
+
+gsap.from(".speaker-item",{
+    
+    y:50,
+    opacity:0,
+    duration:0.1,
+
+    scale:0.9,
+    
+    scrollTrigger:{
+        trigger:".speakers",
+        scroller:"body",
+        start:"top 70%",
+        end:"top 55%",
+        scrub:1
+       
+    }
+})
   
   
   
