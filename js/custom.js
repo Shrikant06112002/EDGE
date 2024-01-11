@@ -40,7 +40,7 @@
             month: 2,
             day: 9,
             hour: 12,
-            minute: 00
+            minute: 0
         });
         // -----------------------------
         // To Top Init
