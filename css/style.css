@@ -3874,4 +3874,27 @@ ul.pagination .active a {
   margin-bottom: 30px;
 }
 
+/* Changes by Shreya */
+
+@media (max-width: 767px) {
+  
+  h5  {
+    font-size: 1.15rem
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  
+  h5 {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+  
+  h5 {
+    font-size: 1.15rem;
+  }
+}
+
 /*# sourceMappingURL=maps/style.css.map */
