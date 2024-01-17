@@ -1053,7 +1053,7 @@ nav-link.active {
     padding: 200px 0px 150px 0px;
   }
   .banner .block {
-    text-align: center;
+    text-align:left;
   }
 }
 
